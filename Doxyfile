@@ -1,0 +1,9 @@
+PROJECT_NAME          = "UAVCalc"
+OUTPUT_DIRECTORY      = "docs/API"
+PROJECT_BRIEF         = "A C++ library for Unmanned Aerial Vehicle (UAV) performance calculation and analysis tools."
+GENERATE_HTML         = YES
+GENERATE_LATEX        = NO
+GENERATE_MAN          = NO
+GENERATE_RTF          = NO
+INPUT                 = src/ include/
+RECURSIVE             = YES

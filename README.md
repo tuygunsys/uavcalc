@@ -45,6 +45,22 @@ target_link_libraries(your_target uavcalc::uavcalc)
 make test
 ```
 
+### Generating Documentation
+
+The library uses Doxygen for API documentation generation. To generate the documentation:
+
+```bash
+# Make sure Doxygen is installed
+# On Debian/Ubuntu:
+# sudo apt-get install doxygen
+
+# From the project root or build directory
+doxygen Doxyfile
+
+# The documentation will be generated in the docs/API/html directory
+# To view it, open docs/API/html/index.html in your browser
+```
+
 ### Uninstalling
 
 ```bash
